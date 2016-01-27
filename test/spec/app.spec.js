@@ -3,8 +3,10 @@
 
 describe("Flirtr", function() {
 
-  it("should...", function() {  
-    
+  it("vedere il punteggio", function() {  
+      octopus.init();
+      var punti=FlirtrModel.getScore();
+      expect().toBe("0");
   });    
  
 });
