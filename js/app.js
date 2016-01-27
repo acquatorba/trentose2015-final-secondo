@@ -10,7 +10,7 @@ var FlirtrModel = {
         score=0;
         for(var i=0;i<res.length;i++){
             for(var j=0;j<patterns.length;j++){
-                if(res[i].word==patterns[j].word){
+                if(res[i]==patterns[j].word){
                     score=score+patterns[j].score;
                 }
             }
