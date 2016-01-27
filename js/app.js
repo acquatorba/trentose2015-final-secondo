@@ -51,7 +51,7 @@ var view ={
                   var text=$("#phrase").val();
                   octopus.controllatext(text);
                   var punti=octopus.getscore();
-                  $(".answer").append(punti);
+                  $(".answer").html("Score :"+punti);
               })
     }
 };
